@@ -1,0 +1,23 @@
+# Omitimos entorno virtual
+entornov/
+
+# Archivos de configuración de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Archivos de entorno
+.env
+.env.local
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos de migraciones
+*/migrations/*
+!*/migrations/__init__.py
+
