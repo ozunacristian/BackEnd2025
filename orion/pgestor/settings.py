@@ -50,6 +50,9 @@ LOCAL_APPS = [
 # Se diferenician las aplicaciones locales de las de Django
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 
+# Se cambia el modelo de usuario por defecto de Django por el modelo Usuario creado en la aplicación usuario
+AUTH_USER_MODEL = 'usuario.Usuario'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
