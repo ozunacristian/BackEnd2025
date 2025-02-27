@@ -123,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Se cambiaron los valores de LANGUAGE_CODE y TIME_ZONE para lenguaje español y zona horaria de Argentina
 LANGUAGE_CODE = 'es-ar'
 
-TIME_ZONE = 'america/argentina/buenos_aires'
+TIME_ZONE = 'America/Argentina/Buenos_aires'
 
 USE_I18N = True
 
